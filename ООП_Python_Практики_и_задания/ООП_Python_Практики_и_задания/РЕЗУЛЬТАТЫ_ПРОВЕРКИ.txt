@@ -1,0 +1,23 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_employees (test_solutions.TestPractices.test_employees) ... ok
+test_online_store (test_solutions.TestPractices.test_online_store) ... ok
+test_spaceship (test_solutions.TestPractices.test_spaceship) ... ok
+test_transport_polymorphism (test_solutions.TestPractices.test_transport_polymorphism) ... ok
+test_task_1 (test_solutions.TestTasks.test_task_1) ... ok
+test_task_2 (test_solutions.TestTasks.test_task_2) ... ok
+test_task_3 (test_solutions.TestTasks.test_task_3) ... ok
+test_task_4 (test_solutions.TestTasks.test_task_4) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.000s
+
+OK
